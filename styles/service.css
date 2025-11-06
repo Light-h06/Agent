@@ -1,0 +1,598 @@
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color:  #86daf0cc;
+      color: #fff;
+    }
+
+    /* Navigation Bar */
+    header {
+     display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.6); /* Slight transparency */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .logo span:first-child {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .logo span:last-child {
+      font-size: 0.9rem;
+      color: #ccc;
+      letter-spacing: 1px;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ccc;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav ul li a.active {
+      color: #ff3b3f;
+      font-weight: 600;
+    }
+
+    nav ul li a:hover {
+      color: #fff;
+    }
+
+    .call-btn {
+      background-color: #ff3b3f;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .call-btn:hover {
+      background-color: #e62e32;
+    }
+
+    /* Header Section */
+    .hero {
+      background: url('https://wondrouslavie.com/wp-content/uploads/2024/04/wedding-planner-office-design.jpg') no-repeat center center;
+      background-size: cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      color: #fff;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    }
+
+   
+    
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .services-overlay {
+        padding: 20px;
+      }
+
+      .services-overlay h2 {
+        font-size: 1.5rem;
+      }
+
+      .services-overlay p {
+        font-size: 1rem;
+      }
+    }
+
+     * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f5f5;
+      color: #fff;
+    }
+
+    .section {
+      position: relative;
+      height: 500px;
+      margin-bottom: 40px;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .section img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .overlay h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .overlay ul {
+      list-style: none;
+    }
+
+    .overlay ul li {
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+      position: relative;
+      padding-left: 20px;
+    }
+    .show {
+      margin-bottom: 10px;
+    }
+
+    .overlay ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #00ccff;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        height: 350px;
+      }
+
+      .overlay {
+        padding: 20px;
+      }
+
+      .overlay h2 {
+        font-size: 1.8rem;
+      }
+
+      .overlay ul li {
+        font-size: 1rem;
+      }
+    }
+     * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f5f5;
+      color: #fff;
+    }
+
+    .section {
+      position: relative;
+      height: 500px;
+      margin-bottom: 40px;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .section img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .overlay h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .overlay ul {
+      list-style: none;
+    }
+
+    .overlay ul li {
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    .overlay ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #00ccff;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        height: 350px;
+      }
+
+      .overlay {
+        padding: 20px;
+      }
+
+      .overlay h2 {
+        font-size: 1.8rem;
+      }
+
+      .overlay ul li {
+        font-size: 1rem;
+      }
+    }
+
+      .footer {
+    background-color: #111;
+    color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+    margin-top: 100px;
+  }
+
+  .footer-column {
+    flex: 1;
+    min-width: 220px;
+    margin: 10px;
+  }
+
+  .footer-column h3 {
+    color: #fff;
+    margin-bottom: 15px;
+  }
+
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer-column ul li a {
+    color: #aaa;
+    text-decoration: none;
+  }
+
+  .footer-column ul li a:hover {
+    color: #fff;
+  } .logo {
+    display: flex;
+    align-items: left;
+  }
+
+  .logo-icon {
+    background-color: #c00;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  .logo-text h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+
+  .logo-text .orange {
+    color: orange;
+  }
+
+  .logo-text .white {
+    color: white;
+  }
+
+  .logo-text p {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+
+  .year {
+    color: red;
+    font-weight: bold;
+  }
+
+  .video-thumbnail {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    background: #000;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .video-thumbnail::before {
+    content: "▶";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: #fff;
+  }
+
+  .video-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1em;
+    color: #fff;
+    background: rgba(255, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .copyright{
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: white;
+    background-color: #111;
+      }
+
+      .promo-banner {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+.promo-top {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.promo-top img {
+  max-height: 50px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.promo-top img:hover {
+  transform: scale(1.05);
+}
+
+.promo-bottom {
+  background-color: #e53935;
+  color: #fff;
+  padding: 3rem 1rem;
+}
+
+.promo-bottom h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.promo-bottom p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #e53935;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #fddede;
+  color: #b71c1c;
+}
+ .footer {
+    background-color: #111;
+    color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+    margin-top: 0.1px;
+  }
+
+  .footer-column {
+    flex: 1;
+    min-width: 220px;
+    margin: 10px;
+  }
+
+  .footer-column h3 {
+    color: #fff;
+    margin-bottom: 15px;
+  }
+
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer-column ul li a {
+    color: #aaa;
+    text-decoration: none;
+  }
+
+  .footer-column ul li a:hover {
+    color: #fff;
+  }
+
+  .logo {
+    display: flex;
+    align-items: left;
+  }
+
+  .logo-icon {
+    background-color: #c00;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  .logo-text h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+
+  .logo-text .orange {
+    color: orange;
+  }
+
+  .logo-text .white {
+    color: white;
+  }
+
+  .logo-text p {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+
+  .year {
+    color: red;
+    font-weight: bold;
+  }
+
+  .video-thumbnail {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    background: #000;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .video-thumbnail::before {
+    content: "▶";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: #fff;
+  }
+
+  .video-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1em;
+    color: #fff;
+    background: rgba(255, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .copyright{
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: white;
+    background-color: #111;
+      }
